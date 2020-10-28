@@ -5,6 +5,16 @@ Functions to infer ew information out of a limited set of information. For examp
 
 It is understood that inferences comes with a degree of reliability. Therefore each inferences will have a reliability score attached to it. 
 
+## Requirements
+Infer the following information:
+- schema:person
+  - employment: from email domain
+  - gender: from first name
+  - age: from first name
+- schema:organization 
+  - industry: from organization name
+  
+
 ## Function
 ### Input:
 - json record or list of record following schema.org jsonld schema

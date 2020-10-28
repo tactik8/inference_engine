@@ -17,5 +17,6 @@ It is understood that inferences comes with a degree of reliability. Therefore e
 Source object | Source key | Infered object | Infered information | library | Logic | Description
 --------------|------------|----------------|---------------------|---------|-------|------------
 schema:person | schema:email | schema:person | schema:worksfor | None | email are correlated to employment | Assumes company is employment for non-public email (yahoo, gmail, etc)
+schema:person | schema:givenname | schema:person | schema:gender | namegender | Correlation between first name and gender | Uses statistical correlation between first name and gender
 
 

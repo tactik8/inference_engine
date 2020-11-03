@@ -1,7 +1,7 @@
 # inference_engine
 
 ## Overview
-Functions to infer ew information out of a limited set of information. For example, if someone has an aemail address as bob.smith@companyxyz.com, then it would infer that bob works for companyxyz. 
+Functions to infer new information out of a limited set of information. For example, if someone has an email address as bob.smith@companyxyz.com, then it would infer that bob works for companyxyz. 
 
 It is understood that inferences comes with a degree of reliability. Therefore each inferences will have a reliability score attached to it. 
 
